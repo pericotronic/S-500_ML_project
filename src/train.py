@@ -403,7 +403,7 @@ now = datetime.datetime.now()
 fecha = now.strftime("%y%m%d%H%M%S")
 
 # Define the path where you want to save the model
-path = r'Alumno\3-Machine_Learning\Entregas\ML_project\src\model'
+path = 'model'
 
 # Save the model in a file named model_fecha in the specified path
 with gzip.open(os.path.join(path, "model_{}.pickle.gz".format(fecha)), 'wb') as f:
